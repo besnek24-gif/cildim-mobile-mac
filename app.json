@@ -1,0 +1,76 @@
+{
+  "expo": {
+    "name": "Cildim",
+    "slug": "cildim",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "ciltbakim",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon-clean.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#E8ECE4"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.ciltbakim.app",
+      "buildNumber": "60",
+      "infoPlist": {
+        "CFBundleDisplayName": "Cildim",
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSMotionUsageDescription": "Cilt analizi sırasında telefonun açısını ölçmek için hareket sensörleri kullanılır."
+      },
+      "jsEngine": "jsc"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#E8ECE4"
+      },
+      "package": "com.ciltbakim.app",
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/images/icon.png"
+    },
+    "plugins": [
+      [
+        "expo-router",
+        {
+          "origin": "https://replit.com/"
+        }
+      ],
+      "expo-font",
+      "expo-web-browser",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Cilt durumunu fotoğraflayıp şahsî bakım profili oluşturmak için kamera erişimi gereklidir."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Ürün fotoğrafları yüklemek için galeri erişimi gereklidir.",
+          "cameraPermission": "Cilt durumunu fotoğraflayıp şahsî bakım profili oluşturmak için kamera erişimi gereklidir."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "reactCompiler": false
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2a381b3b-66ba-4f91-bd05-21f806754087"
+      }
+    },
+    "owner": "besnek",
+    "jsEngine": "jsc"
+  }
+}

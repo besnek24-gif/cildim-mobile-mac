@@ -1,0 +1,12 @@
+node_modules
+.git
+.expo
+dist
+reports
+backups
+quarantine
+app_original_crash_tree_build23_*
+app_build23_minimal_router_backup_*
+*.ips
+*.log
+.DS_Store

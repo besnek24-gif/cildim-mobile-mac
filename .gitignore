@@ -1,0 +1,17 @@
+node_modules/
+.expo/
+dist/
+web-build/
+build/
+ios/
+android/
+transporter_uploads/
+backups/
+stable_snapshots/
+*.ipa
+*.tar.gz
+*.zip
+.DS_Store
+.env
+.env.local
+.env.production

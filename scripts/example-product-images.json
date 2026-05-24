@@ -1,0 +1,29 @@
+[
+  {
+    "barcode": "3337875797597",
+    "name": "La Roche-Posay Anthelios UVMune 400 SPF50+",
+    "brand": "La Roche-Posay",
+    "image_url": "https://your-storage-domain.com/products/3337875797597.jpg",
+    "thumbnail_url": "https://your-storage-domain.com/products/thumbs/3337875797597.jpg"
+  },
+  {
+    "barcode": "8690604006034",
+    "name": "CeraVe Nemlendiricili Temizleyici",
+    "brand": "CeraVe",
+    "image_url": "https://your-storage-domain.com/products/8690604006034.jpg",
+    "thumbnail_url": "https://your-storage-domain.com/products/thumbs/8690604006034.jpg"
+  },
+  {
+    "barcode": "3600542021289",
+    "name": "Garnier Micellar Temizleme Suyu",
+    "brand": "Garnier",
+    "image_url": "https://your-storage-domain.com/products/3600542021289.jpg",
+    "thumbnail_url": "https://your-storage-domain.com/products/thumbs/3600542021289.jpg"
+  },
+  {
+    "name": "Neutrogena Hydro Boost Nemlendirici",
+    "brand": "Neutrogena",
+    "image_url": "https://your-storage-domain.com/products/neutrogena-hydro-boost.jpg",
+    "thumbnail_url": "https://your-storage-domain.com/products/thumbs/neutrogena-hydro-boost.jpg"
+  }
+]
