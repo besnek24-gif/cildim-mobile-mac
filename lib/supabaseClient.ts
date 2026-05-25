@@ -65,7 +65,18 @@ if (__DEV__) {
   }
 }
 
-export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
+
+const safeSupabaseUrl =
+  supabaseUrl && supabaseUrl.trim().length > 0
+    ? supabaseUrl
+    : "https://example.supabase.co";
+
+const safeSupabaseAnonKey =
+  supabaseAnonKey && supabaseAnonKey.trim().length > 0
+    ? supabaseAnonKey
+    : "local-dev-placeholder-key";
+
+export const supabase = createClient(safeSupabaseUrl, safeSupabaseAnonKey, {
   auth: {
     storage: AsyncStorage,
     persistSession: true,

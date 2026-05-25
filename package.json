@@ -14,7 +14,9 @@
     "score:missing": "node scripts/calculate-dermo-scores.js --missing",
     "score:dry": "node scripts/calculate-dermo-scores.js --dry-run",
     "features": "node scripts/auto-features.js",
-    "features:dry": "node scripts/auto-features.js --dry-run"
+    "features:dry": "node scripts/auto-features.js --dry-run",
+    "android": "expo run:android",
+    "ios": "expo run:ios"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -72,6 +74,9 @@
     "expo-image-manipulator": "^14.0.8",
     "expo-sensors": "^15.0.8",
     "jpeg-js": "^0.4.4",
-    "zustand": "^5.0.12"
+    "zustand": "^5.0.12",
+    "expo": "~54.0.34",
+    "react": "19.1.0",
+    "react-native": "0.81.5"
   }
 }
